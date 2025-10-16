@@ -16,4 +16,4 @@ npm install
 npm start
 
 ## usage
-- https://localhost:3000/?domain_hint=<a federated domain>&RelayState=<whatever URL you want to land>
+- https://localhost:3000/?domain_hint=<a_federated_domain>&RelayState=<whatever_URL_you_want_to_land>
