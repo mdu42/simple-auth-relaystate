@@ -1,0 +1,22 @@
+{
+  "name": "simple-auth-relaystate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Michel Duong",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.20.0",
+    "@azure/msal-browser": "^4.0.0",
+    "morgan": "^1.10.0",
+    "@types/jest": "^29.5.0",
+    "@types/express": "^4.17.3",
+    "@types/morgan": "^1.9.0"   
+  }
+}
