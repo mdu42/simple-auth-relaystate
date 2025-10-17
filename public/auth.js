@@ -78,6 +78,11 @@ async function initialize() {
       // Authentication successful, set active account
       msalInstance.setActiveAccount(response.account);
       updateUI(response.account);
+      if(relayState != '') {
+        // value should be tested against whitelisted URL !
+        // for the purpose of the demo, no check
+        window.location.replace(relayState);
+      }      
     } else {
       // No redirect response, check for existing accounts
       const accounts = msalInstance.getAllAccounts();
